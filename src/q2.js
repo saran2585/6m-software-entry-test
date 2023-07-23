@@ -10,14 +10,16 @@
 */
 
 
-// Task 1: Add code here
-
+// Defining array for patient names. 
+const patientNameArray = [];
 function addPatient(patientName){
-    // Task 2: Add code here
+    patientNameArray.push(patientName);
 }
 
 // Task 3: Add code here
-
+function listPatient() {
+    console.log(patientNameArray);
+  }
 
 addPatient("John");
 addPatient("Mary");
